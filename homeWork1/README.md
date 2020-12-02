@@ -5,5 +5,5 @@
 
 # homework 1
 
-clone a website index : https://www.oursky.com/
-only html and css
+-   only html and css
+-   clone a website : https://iris1114.github.io/React-Shot/homeWork1/index.html
