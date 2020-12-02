@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col{
+            width: 20%;
+            height: 100px;
+            background-color: #ccc;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>1.html structure</h2>
+    <p>&lt;header&gt; &lt;/header&gt;</p>
+    <p>&lt;main&gt; &lt;/main&gt; </p>
+    <p>&lt;footer&gt; &lt;/footer&gt; </p>
+
+
+    <header>
+        <div class="navBar">
+            <nav></nav>
+            <nav></nav>
+            <nav></nav>
+            <nav></nav>
+        </div>
+    </header>
+
+
+    <main>
+        <h2>2. section structure</h2>
+        <p>section : 可設定背景 / padding /上下</p>
+        <p>container: 可設定max-width /置中 / 左右 </p>
+        <p>內壁 : 可設定寬度 </p>
+        <p>row : 保住子物件</p>
+        <p>col: 子物件</p>
+        <!-- 空白可以用margin 可統一使用 margin-bottom margin-right -->
+        <!-- react 小到一個tag也是component -->
+        <!-- 建議一層做一件事 -->
+
+
+        <!-- section structure -->
+        <section class="section bg-black pt-3 pb-3">
+            <div class="container">
+                <div class="w-75 mx-auto">
+                    <div class="row"> 
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <h2>3. card structure</h2>
+        <!-- my card structure -->
+        <div class="card">
+            <div class="img margin">
+                <img src="https://picsum.photos/id/1058/600/400" alt="">
+            </div>
+            <div class="title margin">
+                <h2 class="margin-right">title</h2>
+                <h4 class="margin-right">subtitle</h4>
+            </div>
+            <div class="content margin">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="btn margin">btn</div>
+        </div>
+
+
+
+        <!-- teacher's card structure -->
+        <div class="card">
+            <div class="card_img"></div>
+                <div class="card_body pt px">
+                    <div class="card_title">
+                        <div class="card_maintitle"></div>
+                        <!-- mr -->
+                        <div class="card_subtitle"></div>
+                    </div>
+                    <div class="card_content">
+                        <p></p>
+                    </div> 
+                    <div class="btn_group">
+                        <div class="card_btn"></div>
+                        <!-- mr -->
+                        <div class="card_btn"></div>
+                    </div>
+                    <!-- mb -->
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org/",
+              "@type": "Recipe",
+              "name": "{{recipe_name}}",
+              "image": [ "{{recipe_image}}" ],
+              "author": {
+                "@type": "Person",
+                "name": "{{recipe_author}}"
+              }
+            }
+        </script>
+
+    </footer>
+  
+</body>
+</html>
