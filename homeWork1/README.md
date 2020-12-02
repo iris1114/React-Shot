@@ -1,14 +1,9 @@
-# gulp_promo quickstart guide
+# quickstart guide
 
-* run `npm install`
-* run `gulp` to run the default gulp task
+-   run `npm install`
+-   run `gulp` to run the default gulp task
 
+# homework 1
 
-in this project, gulp is configured to run the following functions:
-* using with node.js version 12.8 & gulp 4.0.2 
-* compile the SCSS files to CSS 
-* autoprefix and minify the CSS file
-* uglify the JS files
-* move final CSS and JS files to the `/dist` folder
-
- 
+clone a website index : https://www.oursky.com/
+only html and css
