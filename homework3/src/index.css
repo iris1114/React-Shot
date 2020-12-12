@@ -1,0 +1,51 @@
+.hero-section {
+  background-color: #123fae;
+  padding: 100px 0px;
+}
+
+.hero-section .lading-btn {
+  position: relative;
+  top: 130px;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-section .lading-btn {
+    width: 100%;
+  }
+}
+
+.about-section {
+  background: #f3f3f3;
+  padding: 100px 0px;
+}
+
+.cards-section {
+  padding: 100px 0px;
+}
+
+.service-section {
+  background: #f3f3f3;
+  padding: 100px 0px;
+}
+
+.product-section {
+  padding: 100px 0px;
+}
+
+.paertner-section {
+  padding: 100px 0px;
+  background: #f3f3f3;
+}
+
+.contact-section {
+  padding: 100px 0px;
+  background: #263043;
+  color: #fff;
+}
+
+/* @media screen and (max-width: 767px) {
+  .hero-section .lading-btn {
+    width: 100%;
+  }
+} */

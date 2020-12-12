@@ -1,0 +1,13 @@
+.btn {
+  background-color: #faac2c;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #faac2c;
+  border-color: #faac2c;
+  opacity: 0.8;
+  color: #fff;
+}
