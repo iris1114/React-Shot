@@ -6,4 +6,4 @@
 # homework 1
 
 -   only html and css
--   clone a website : https://iris1114.github.io/React-Shot/homeWork1/index.html
+-   clone a website : https://iris1114.github.io/React-Shot/hw1/index.html
